@@ -13,4 +13,3 @@ define [
   			@collection.fetch()
   			@view = new UserCollectionView {@collection}
    
-      create :->

@@ -1,0 +1,31 @@
+<div class="address-wrapper">
+<address>
+<strong>{{card.address.streetA}}</strong><br>
+{{card.address.streetB}}<br>
+{{card.address.city}}, {{card.address.ukCounty}} {{card.address.zipcode}}<br>
+<abbr title="Phone">P:</abbr> {{card.phone}}
+</address>
+ 
+<address>
+<strong>{{name}}</strong><br>
+<a href="mailto:#">{{email}}</a>
+</address>
+<a href="#edit" class="btn btn-info edit-user"><i class="icon-pencil icon-white"></i> edit</a>
+</div>
+
+
+<!--Begin User Edit Modal -->
+<div class="modal hide fade" id="edit">
+  <div class="modal-header">
+    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+    <h3>Edit</h3> <h4>{{name}}</h4>
+  </div>
+  <div class="modal-body">
+    <form action="#">
+      <input id="user-name" type="text" value="{{name}}" placeholder="Name">
+      <input id="user-email" type="email" value="{{email}}" placeholder="email">
+     <button class="btn update-user" >update</button>
+    </form>
+  </div>
+</div>
+<!--End User Create Modal -->
