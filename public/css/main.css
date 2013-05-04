@@ -1,0 +1,49 @@
+body {
+	font-family: 'Titillium Web', sans-serif !important;
+	background: url("../img/squairy_light.png") repeat scroll 0 0 #F1F1F1;
+	/* backround:#fff; */
+}
+.main-content {
+	margin-top:30px;
+	background: none repeat scroll 0 0 #FFFFFF;
+	border-radius: 6px 6px 6px 6px;
+	box-shadow: 0 0 1px #BBBBBB;
+	padding: 0;	
+}
+.detail {
+	margin-left: -20px !important;
+}
+.users ul {
+	background: none repeat scroll 0 0 #F1F1F1;	
+	border-right: 2px solid #ccc;
+	margin: 20px 0; 
+}
+.address-wrapper {
+	padding: 50px 30px;
+}
+.userlist li a{
+	display: block;
+	font-size: 15px;
+	font-weight: 700;
+	text-decoration: none;
+	color: #555;
+	padding: 10px 15px;
+}
+.userlist li {
+	border-bottom: 1px solid #e3e3e3;
+	
+}
+.userlist li a:hover,.userlist li .active{
+	text-decoration: none;
+	color: #333;
+	background: #fff;
+}
+
+.bottom-border {
+	padding: 0 0 10px 0;
+}
+a:active, a:focus, input {
+    outline: 0 !important;
+    outline-style:none !important;
+    outline-width:0 !important;
+}
